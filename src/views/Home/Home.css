@@ -1,0 +1,95 @@
+.maindiv{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.background{
+height: 100vh;
+width: 60vw;
+position: relative;
+}
+.background h2{
+    color:white;
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    top: 3rem;
+    left: 4rem;
+
+}
+.wheatherimg{
+    height: 100%;
+    width: 100%;
+}
+.wheatherapp{
+     background-color: black;
+     height: 100vh;
+     width: 40vw;
+     color: white;
+
+}
+.wheatherdiscripton{
+    /* border: 1px solid white; */
+    height: 100vh;
+    width: 30vw;
+    margin: 0 auto;
+}
+.whatherimgchange{
+    height: 30vh;
+    /* border: 1px solid white; */
+}
+.displaywheatherdetail{
+    /* border: 1px solid white; */
+    height: 70vh;
+   
+}
+.searbar{
+   border-bottom: 1px solid white;
+    margin: 2rem 3rem;
+    
+}
+.searchherer{
+    height: 2.3rem;
+    width: 22rem;
+    background-color: transparent;
+ border: none;
+    color: white;
+    padding-left: 5rem;
+    font-size: 1.3rem;
+}
+.detail{
+    font-size: 1.4rem;
+display: block;
+text-align: center;
+}
+.temprature{
+    font-size: 1.3rem;
+}
+.data{
+    font-size: 1.3rem;
+    margin-left: 10rem;
+}
+.datavisibility{
+    font-size: 1.3rem;
+    margin-left: 12rem;
+}
+
+/* responsive */
+
+@media screen  and (max-width:360px){
+    .background{
+        display: none;
+    }
+    .wheatherapp{
+width: 100vw;
+    }
+    .wheatherdiscripton{
+        /* border: 1px solid white; */
+     
+       width: 100vw;
+       
+    }
+}
